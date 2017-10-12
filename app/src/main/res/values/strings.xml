@@ -1,0 +1,94 @@
+<resources>
+    <string name="app_name">ParkinsonKit</string>
+    <string name="action_settings">Setting</string>
+    <string name="drawer_open">drawer open</string>
+    <string name="drawer_close">drawer close</string>
+
+    <string name="title_activity_information">Informasi</string>
+    <string name="title_activity_identification">Tremor Identification</string>
+    <string name="title_activity_training">Simple Training</string>
+    <string name="title_activity_tremor_identification">Identifikasi Tremor</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="informasi_tentangparkinson">Tentang Parkinson</string>
+    <string name="informasi_penyebab">Penyebab</string>
+    <string name="informasi_gejala">Gejala</string>
+    <string name="informasi_pencegahan">Pencegahan</string>
+    <string name="informasi_penanganan">Penanganan</string>
+    <string name="informasi_komunitas">Komunitas</string>
+
+    <string name="title_activity_informasi_tentang">Informasi Tentang</string>
+    <string name="title_activity_informasi_penyebab">Informasi Penyebab</string>
+    <string name="title_activity_informasi_gejala">Informasi Gejala</string>
+    <string name="title_activity_informasi_penanganan">Informasi Penanganan</string>
+    <string name="title_activity_informasi_komunitas">Informasi Komunitas</string>
+
+
+    <!--TENTANG-->
+    <string name="tentang">Tentang</string>
+    <string name="tentang_konten">
+        <![CDATA[ Penyakit Parkinson adalah suatu kelainan fungsi otak yang disebabkan oleh proses
+        degenerative progresif sehubungan dengan proses penuaan pada sel-sel di <i>substansia nigra pars compacta</i>.
+<p>Terdapat dua istilah yang harus dibedakan, yaitu</p>
+<p>    1.	<b>Penyakit Parkinson</b> adalah bagian dari parkinsonism yang secara patologis (abnormal/penyakit) ditandai dengan degenerasi di bagian otak ganglia basalis terutama substansia nigra pars compacta.</p>
+<p>    2.	<b>Parkinsonism</b> adalah suatu sindrom yang ditandai dengan adanya 4 tanda gangguan motoric (gerakan)
+        <br>-tremor waktu istirahat
+        <br>-kekakuan
+        <br>-bradikinesia (lambat gerak)
+        <br>-kehilangan refleks postural (tidak mampu menyesuaikan posisi tubuh)</br> ]]>
+</string>
+
+
+    <!--Penyebab-->
+    <string name="penyebab">Penyebab</string>
+    <string name="penyebab_konten">
+        <![CDATA[<p><b>Faktor keturunan (genetic)</b>, terdapat 3 gen yang menyebabkan gangguan degradasi protein
+        sehingga protein beracun tidak dapat didegaradasi ubiquitin-proteasomal pathway.
+        Kegagalan degaradasi menyebabkan peningkatan apoptosis (kematian sel yang terprogram)
+        sel-sel pada substansia nigra pars compacta. Inilah yang menjadi dasar terjadinya PP familial.</p>
+        <p><b>Faktor Lingkungan</b>, paparan xenobiotic (benda asing yang masuk ke dalam tubuh), pestisida,
+        zat-zat kimia (bahan cat dan logam), kafein, alcohol, diet tinggi protein, merokok, trauma
+        kepala, depresi dan stress menjadi etiologi PP. Faktor-faktor tersebut menyebabkan stress
+        oksidatif (ketidakseimbangan antara jumlah radikal bebas dalam tubuh dengan kemampuan tubuh
+        untuk menetralisir radikal bebas tersebut). Stress oksidatif kemudian dapat meningkatkan
+        risiko PP dengan suatu jalur tertentu.</p>
+        <p><b>Umur (aging)</b>, terkait proses degenerative sel-sel di substansia nigra pars compacta
+        sehingga mempermudah terjadinya PP.</p>
+    ]]></string>
+
+
+    <!--Gejala-->
+    <string name="gejala">Gejala</string>
+    <string name="gejala_konten">
+        <![CDATA[<p>Gejala motoric pada PP disingkap TRAP, yaitu.
+        <br>-	Tremor, dengan beberapa tingkat (1) Laten, (2) saat istirahat, (3) bertahan saat istirahat, (4) tremor saat bergerak dimana istirahat juga mengalami tremor.
+        <br>-	Rigiditas (kekakuan)
+        <br>-	Akinesia (Bradikinesia), berupa (1) kedipan mata berkurang, (2) wajah topeng (tanpa ekspresi), (3) Hipofonia (suara kecil), (4) air liur menetes, (5) akatisia/takikinesia (gerakan cepat yg tak terkontrol), (6) Mikrografia (tulisan makin mengecil), (7) langkah kecil-kecil, (8) kegelisahan motoric (sulit duduk dan berdiri)
+        <br>-	Postural reflex menurun.</br>
+
+        <p>Stadium klinis PP berdasar Hoehn dan Yahr adalah sebagai berikut.
+        <br>-	Stadium I	: (Unilateral), ekpresi wajah berkurang, tremor, ayunan lengan berkurang
+        <br>-	Stadium II	: (Bilateral), tubuh membungkuk ke depan, gaya jalan lambat dan langkah sangat kecil-kecil, sukar membalikkan badan
+        <br>-	Stadium III	: Gangguan gaya berjalan sangat terlihat, ketidakstabilan postural
+        <br>-	Stadium IV	: Disabilitas jelas, berjalan terbatas tanpa bantuan, lebih cenderung jatuh
+        <br>-	Stadium V	: Hanya berbaring atau duduk di kursi roda, tidak mampu berdiri/berjalan meski dibantu, bicara tidak jelas, wajah tanpa ekspresi, jarang berkedip.
+
+    ]]></string>
+
+    <!--Pencegahan-->
+    <string name="pencegahan">Pencegahan</string>
+    <string name="pencegaha_konten">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in</string>
+
+    <!--Penanganan-->
+    <string name="penanganan">Penanganan</string>
+    <string name="penanganan_konten">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+        sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+        Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl
+        ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in</string>
+    <string name="title_activity_information_tentang">InformationTentang</string>
+</resources>

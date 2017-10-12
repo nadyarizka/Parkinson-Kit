@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/bg1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Menu"
+        android:textSize="60px"
+        android:layout_margin="16dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:shadowColor="@color/colorPrimaryDark"
+        android:gravity="center"
+        />
+
+    <View
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="0.9dp"
+        android:background="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:onClick="OnClick"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/Informasi"
+        android:layout_marginBottom="8dp"
+
+
+        >
+
+        <!--<RelativeLayout-->
+        <!--android:layout_width="350dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:background="@color/transparan"></RelativeLayout>-->
+
+        <ImageView
+            android:id="@+id/information_img"
+            android:src="@drawable/infromasi"
+            android:layout_height="match_parent"
+            android:layout_width="120dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/information_img"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="8dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="@string/title_activity_information"
+                android:id="@+id/informasi_txt"
+                android:textSize="@dimen/text_h1"
+                android:textStyle="bold"
+                android:typeface="normal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:gravity=""
+                />
+
+            <TextView
+                android:text="Tentang, Penyebab, Gejala, Penanganan, Komunitas "
+                android:id="@+id/informasi1_txt"
+                android:layout_below="@+id/tes_tremor_txt"
+                android:textSize="@dimen/text_h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_height="0.5dp"
+        android:background="@color/white" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:onClick="OnClick"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/Tes"
+        android:layout_marginBottom="8dp"
+
+        >
+        <!--<RelativeLayout-->
+        <!--android:layout_width="350dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_height="300dp"-->
+        <!--android:background="@color/transparan"></RelativeLayout>-->
+        <ImageView
+            android:id="@+id/tes_tremor_img"
+            android:src="@drawable/tremor"
+            android:layout_height="match_parent"
+            android:layout_width="120dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/tes_tremor_img"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="8dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="@string/title_activity_identification"
+                android:id="@+id/tes_tremor_txt"
+                android:textSize="@dimen/text_h1"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:text="tes sederhana untuk mengidentifikasi tremor"
+                android:id="@+id/tes_tremor1_txt"
+                android:layout_below="@+id/tes_tremor_txt"
+                android:textSize="@dimen/text_h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_height="0.5dp"
+        android:background="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp"
+        android:layout_weight="1"
+        android:onClick="OnClick"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginEnd="16dp"
+        android:id="@+id/Training"
+        android:layout_marginBottom="8dp"
+
+        >
+        <ImageView
+            android:id="@+id/training_img"
+            android:src="@drawable/latihan"
+            android:layout_height="match_parent"
+            android:layout_width="120dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@+id/training_img"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:paddingLeft="8dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:text="@string/title_activity_training"
+                android:id="@+id/training_txt"
+                android:textSize="@dimen/text_h1"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity=""
+                android:textColor="@color/white"
+                />
+
+            <TextView
+                android:text="Contoh latihan untuk melatih motorik"
+                android:id="@+id/training1_txt"
+                android:layout_below="@+id/tes_tremor_txt"
+                android:textSize="@dimen/text_h2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_centerVertical="true"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_height="0.5dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        />
+
+</LinearLayout>

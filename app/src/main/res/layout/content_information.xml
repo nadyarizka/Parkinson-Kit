@@ -1,0 +1,98 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context=".ActivityInformation">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="OnClick"
+        android:id="@+id/tentangparkinson"
+        android:text="@string/informasi_tentangparkinson"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="@dimen/text_h1"
+        android:layout_margin="8dp"
+        />
+
+    <View
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_height="0.5dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="OnClick"
+        android:id="@+id/penyebab"
+        android:text="@string/informasi_penyebab"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="@dimen/text_h1"
+        android:layout_margin="8dp"
+        />
+    <View
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_height="0.5dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="OnClick"
+        android:id="@+id/gejala"
+        android:text="@string/informasi_gejala"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="@dimen/text_h1"
+        android:layout_margin="8dp"
+        />
+
+    <View
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_height="0.5dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/penanganan"
+        android:onClick="OnClick"
+        android:text="@string/informasi_penanganan"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="@dimen/text_h1"
+        android:layout_margin="8dp"
+        />
+
+    <View
+        android:layout_width="330dp"
+        android:layout_gravity="center"
+        android:layout_height="0.5dp"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:onClick="OnClick"
+        android:id="@+id/komunitas"
+        android:text="@string/informasi_komunitas"
+        android:gravity="center"
+        android:padding="8dp"
+        android:textSize="@dimen/text_h1"
+        android:layout_margin="8dp"
+        />
+</LinearLayout>
